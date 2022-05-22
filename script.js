@@ -52,8 +52,6 @@ class Particle {
   }
 }
 
-console.log(particlesArray);
-
 function handleParticles() {
   for (let i = 0; i < particlesArray.length; i++) {
     particlesArray[i].update();
